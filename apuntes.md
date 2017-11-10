@@ -18,9 +18,31 @@
 * Ocultamiento de informacion
 * Mapeo directo
 
-# Ecalabilidad
+## Ecalabilidad
 * Vertical: mas recursos (CPU, Memoria, etc.)
 * Horizontal: Replicacion (+nodos)
-_Nota: ver la 3ra dimencion_
+_Nota: boscar sobre la 3ra dimencion_
 
-# Arquitectura:
+## Arquitectura:
+
+[Ley de conway](http://www.fuerzatres.com/2012/01/la-ley-de-conway-html/)
+
+### Arquitectura Monolitica:
+Pros:
+ - Proseso de desarrollo simple
+ - Testing de integracion simple
+ - Deployment simple
+ - Escalabilidad horizontal simple
+  
+Cont:
+ - Dificultad de desarrollo: para sistemas complejos requiere conosimento completo
+ - Dificultad en el quipo de desarrollo
+ - Compromiso global con ciertas tecnologias: resulta dificil integrar nuevas tecnologias
+ - 
+
+## Cubo de escalabilidad
+*	Eje Y: separacion en fuciones o servicios
+* Eje X: duplicacion
+* Eje Z: particion de datos
+
+
