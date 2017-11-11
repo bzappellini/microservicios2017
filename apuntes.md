@@ -45,4 +45,29 @@ Cont:
 * Eje X: duplicacion
 * Eje Z: particion de datos
 
+## API
+* RPC:
+	- JRMI
+	-	SOAP
+	- XML-RPC
+	-	JSON-RPC
+
+* REST:
+	- Datos:
+		- XML
+		-	JSON
+	-	Acciones:
+		- GET
+		- HEAD
+		- POST
+		-	PUT
+		-	DELETE
+
+_HATEOAS:hypermedia as the engine of application state_
+
+## Orchestration vs Choreography
+
+## varios
+* serverless programing
+* vizceral
 
